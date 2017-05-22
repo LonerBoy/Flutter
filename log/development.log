@@ -144,3 +144,253 @@ Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by PagesController#home as HTML
   Rendered pages/home.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 99.119.105.62 at 2017-05-22 20:45:47 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ubuntu/workspace/app/assets/images
+  /home/ubuntu/workspace/app/assets/javascripts
+  /home/ubuntu/workspace/app/assets/stylesheets
+  /home/ubuntu/workspace/vendor/assets/javascripts
+  /home/ubuntu/workspace/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Flutter</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2720341771236288873_37313180'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.8ms)
+
+
+Started GET "/home" for 99.119.105.62 at 2017-05-22 20:53:29 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ubuntu/workspace/app/assets/images
+  /home/ubuntu/workspace/app/assets/javascripts
+  /home/ubuntu/workspace/app/assets/stylesheets
+  /home/ubuntu/workspace/vendor/assets/javascripts
+  /home/ubuntu/workspace/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Flutter</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2720341771236288873_37313180'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.9ms)
+
+
+Started GET "/profile" for 99.119.105.62 at 2017-05-22 20:53:38 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Rendered pages/profile.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ubuntu/workspace/app/assets/images
+  /home/ubuntu/workspace/app/assets/javascripts
+  /home/ubuntu/workspace/app/assets/stylesheets
+  /home/ubuntu/workspace/vendor/assets/javascripts
+  /home/ubuntu/workspace/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Flutter</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2720341771236288873_37313180'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.0ms)
+
+
+Started GET "/home" for 99.119.105.62 at 2017-05-22 21:04:06 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ubuntu/workspace/app/assets/images
+  /home/ubuntu/workspace/app/assets/javascripts
+  /home/ubuntu/workspace/app/assets/stylesheets
+  /home/ubuntu/workspace/vendor/assets/javascripts
+  /home/ubuntu/workspace/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Flutter</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2720341771236288873_37313180'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.8ms)
+
+
+Started GET "/home" for 99.119.105.62 at 2017-05-22 21:04:34 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ubuntu/workspace/app/assets/images
+  /home/ubuntu/workspace/app/assets/javascripts
+  /home/ubuntu/workspace/app/assets/stylesheets
+  /home/ubuntu/workspace/vendor/assets/javascripts
+  /home/ubuntu/workspace/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Flutter</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2720341771236288873_37313180'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:11:56 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 5707ms (Views: 5696.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:12:13 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:12:47 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:16:30 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:16:32 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:16:39 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:16:45 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:21:16 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+Completed 200 OK in 202ms (Views: 201.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:23:52 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+Completed 200 OK in 54ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:25:39 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 121ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 99.119.105.62 at 2017-05-22 21:29:32 +0000
+Cannot render console from 99.119.105.62! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.7ms)
+Completed 200 OK in 77ms (Views: 76.2ms | ActiveRecord: 0.0ms)
