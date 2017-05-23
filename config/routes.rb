@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   
+  devise_for :users
   # Define root URL
   root 'pages#index'
+  
   # Define Routes for Pages
   get '/home' => 'pages#home'
   get '/profile' => 'pages#profile'
